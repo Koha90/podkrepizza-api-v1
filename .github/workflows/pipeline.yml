@@ -29,5 +29,5 @@ jobs:
     - name: Archive
       uses: actions/upload-artifact@v2
       with:
-          name: api
+          name: podkrepizza-api-v1
           path: artifacts

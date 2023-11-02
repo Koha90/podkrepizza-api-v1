@@ -4,6 +4,7 @@
 config.json
 config.yml
 *.db
+podkrepizza-api-v1
 
 # folders
 bin
