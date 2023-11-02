@@ -15,10 +15,10 @@ init-go:
 	echo 'export PATH=$$PATH:${HOME}/go/bin' >> $${HOME}/.bashrc
 
 build:
-	@go build -o podkreppiza-api-v1 cmd/api/main.go
+	@go build -o podkrepizza-api-v1 cmd/api/main.go
 
 run: build
-	@./podkreppiza-api-v1
+	@./podkrepizza-api-v1
 
 test:
 	@go test ./...
