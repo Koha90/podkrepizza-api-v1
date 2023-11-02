@@ -24,7 +24,7 @@ jobs:
     - name: Copy files
       run: |
           mkdir  artifacts
-          cp api artifacts/.
+          cp podkrepizza-api-v1 artifacts/.
 
     - name: Archive
       uses: actions/upload-artifact@v2
