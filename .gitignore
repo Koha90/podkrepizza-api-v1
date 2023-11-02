@@ -1,0 +1,10 @@
+# files
+*.exe
+*.exe~
+config.json
+config.yml
+*.db
+
+# folders
+bin
+
