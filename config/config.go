@@ -12,6 +12,7 @@ type Config struct {
 	HTTP    HTTP    `yaml:"http"`
 	Storage Storage `yaml:"storage"`
 	Log     Log     `yaml:"log"`
+	Env     string  `yaml:"env"     env-default:"development"`
 }
 
 // App - name and version of application.
@@ -22,12 +23,12 @@ type App struct {
 
 // HTTP - port for listen and serve application.
 type HTTP struct {
-	Port string `yaml:"port" env-default:"0.0.0.0:8080"`
+	Port string `yaml:"port" env-default:"0.0.0.0:80"`
 }
 
 // Storage - configuration for storage of application.
 type Storage struct {
-	URL string `yaml:"url" env:"URL"`
+	Path string `yaml:"url" env:"URL"`
 	// Pool int - TODO, when choosing PostgreSQL
 }
 

@@ -6,6 +6,7 @@ config.json
 config.yml
 *.db
 podkrepizza-api-v1
+.env
 
 # folders
 bin
