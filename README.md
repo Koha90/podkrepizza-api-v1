@@ -1,4 +1,4 @@
-# Podkrepizza API
+# API Server for "ПодкреПицца"
 
 ## Dependencies
 

@@ -1,6 +1,7 @@
 # files
 *.exe
 *.exe~
+*.swap
 config.json
 config.yml
 *.db
